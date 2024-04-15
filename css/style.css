@@ -42,7 +42,7 @@ h6 {
     right: 1rem;
 }
 
-.position-absolute {
+.position-absolute-header {
     position: absolute;
     top: 7rem;
     right: 0;
@@ -64,4 +64,11 @@ h6 {
 
 .margin-right {
     margin-right: 8.7rem;
+}
+
+.position-absolute-main {
+    position: absolute;
+    top: 25rem;
+    right: 0;
+    left: 1rem;
 }

@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-html {
-    max-width: 1903px;
-    min-width: 1080px;
-}
-
 body {
     font-family: "Open Sans", sans-serif;
 }

@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* imp. generali */
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -17,7 +19,6 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     font-size: 3rem;
 }
 
@@ -71,9 +72,11 @@ h6 {
     margin-right: 8.7rem;
 }
 
-.position-absolute-main {
-    position: absolute;
-    top: 25rem;
-    right: 0;
-    left: 1rem;
-}
+    /* main */
+
+    .position-absolute-main {
+        position: absolute;
+        top: 43rem;
+        right: 0;
+        left: 20.5rem;
+    }

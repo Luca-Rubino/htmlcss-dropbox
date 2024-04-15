@@ -4,9 +4,12 @@
     padding: 0;
 }
 
-body {
+html {
     max-width: 1903px;
-    min-width: 1903px;
+    min-width: 1080px;
+}
+
+body {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -37,12 +40,11 @@ h6 {
 
 .nav-flex {
     display: flex;
-    width: 98%;
     top: 2rem;
-    position: relative;
+    position: absolute;
     left: 1rem;
-    justify-content: space-between;
-    right: 0;
+    justify-content: flex-start;
+    right: 1rem;
 }
 
 .position-absolute {

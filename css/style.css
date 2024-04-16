@@ -10,6 +10,16 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+nav > section,
+nav section > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul > li {
+    padding: 0 2rem;
+}
+
 ul {
     list-style: none;
 }
@@ -35,28 +45,34 @@ img {
 
 #logo {
     width: 7.9rem;
-    height: 2rem;
+    height: 1.5rem;
 }
 
 #jumbo {
-    height: 27rem;
+    width: 10rem;
 }
 
 /* classi */
 
 .flex-container {
-    background-color: pink;
-    border: 1px solid darksalmon;
     display: flex;
+}
+
+.nav-flex-container {
+    background-color: #fff;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 .buttom {
     background-color: #0061ff;
     color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
     border: 0;
-    padding: 0.3rem .7rem;
-}
-
-.margin-right {
-    margin-right: 8.7rem;
+    padding: .3rem 1rem;
+    margin: 0 0 0 1rem;
 }

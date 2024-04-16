@@ -44,32 +44,10 @@ img {
 
 /* classi */
 
-.flex {
+.flex-container {
+    background-color: pink;
+    border: 1px solid darksalmon;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-flex {
-    display: flex;
-    /* top: 2rem; */
-    /* position: absolute; */
-    /* left: 1rem; */
-    justify-content: flex-start;
-    /* right: 1rem; */
-}
-
-/* .position-absolute-header {
-    position: absolute;
-    top: 7rem;
-    right: 0;
-    left: 1rem;
-} */
-
-.flex-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
 }
 
 .buttom {
@@ -82,12 +60,3 @@ img {
 .margin-right {
     margin-right: 8.7rem;
 }
-
-    /* main */
-
-    /* .position-absolute-main {
-        position: absolute;
-        top: 43rem;
-        right: 0;
-        left: 20.5rem;
-    } */

@@ -10,22 +10,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-nav > section,
-nav section > ul {
-    display: flex;
-    align-items: center;
-}
-
-nav ul > li {
-    padding: 0 2rem;
-}
-
 ul {
     list-style: none;
 }
 
 h1 {
-    text-align: center;
+    font-size: 5rem;
 }
 
 h2 {
@@ -37,10 +27,47 @@ h6 {
     font-weight: 400;
 }
 
+/* inpostazioni nav e header */
+
+nav > section,
+nav section > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul > li {
+    padding: 0 2rem;
+}
+
+header {
+    background-color: #b4d0e7;
+}
+
+header > section {
+    margin: 0 19%;
+    padding-top: 5rem;
+}
+
+header section > button:first-of-type {
+    margin: 0;
+    padding: .5rem 1rem;
+}
+
+div > section:first-of-type {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+header section.flex-container > p,
+header section.flex-container > button {
+    margin-bottom: 2rem;
+}
+
 /* misure immagini */
 
 img {
-    width: 10rem;
+    width: 50rem;
 }
 
 #logo {
@@ -49,7 +76,9 @@ img {
 }
 
 #jumbo {
-    width: 10rem;
+    position: relative;
+    bottom: 0rem;
+    top: 5rem;
 }
 
 /* classi */
@@ -60,7 +89,7 @@ img {
 
 .nav-flex-container {
     background-color: #fff;
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid #e9ecf0;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -73,6 +102,11 @@ img {
     font-weight: 500;
     font-size: .9rem;
     border: 0;
-    padding: .3rem 1rem;
-    margin: 0 0 0 1rem;
+    padding: .8rem;
+    margin-bottom: 2rem;
+}
+
+.i-marginb-fontsize {
+    margin: 3rem 0 1rem 0;
+    font-size: 3rem;
 }

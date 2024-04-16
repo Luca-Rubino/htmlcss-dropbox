@@ -27,12 +27,18 @@ h6 {
     font-weight: 400;
 }
 
+/* misure immagini */
+
+img {
+    width: 10rem;
+}
+
 #logo {
     width: 7.9rem;
     height: 2rem;
 }
 
-img, #jumbo {
+#jumbo {
     height: 27rem;
 }
 

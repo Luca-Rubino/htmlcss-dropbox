@@ -27,7 +27,12 @@ h6 {
     font-weight: 400;
 }
 
-#jumbo {
+#logo {
+    width: 7.9rem;
+    height: 2rem;
+}
+
+img, #jumbo {
     height: 27rem;
 }
 

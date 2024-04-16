@@ -41,19 +41,19 @@ h6 {
 
 .nav-flex {
     display: flex;
-    top: 2rem;
-    position: absolute;
-    left: 1rem;
+    /* top: 2rem; */
+    /* position: absolute; */
+    /* left: 1rem; */
     justify-content: flex-start;
-    right: 1rem;
+    /* right: 1rem; */
 }
 
-.position-absolute-header {
+/* .position-absolute-header {
     position: absolute;
     top: 7rem;
     right: 0;
     left: 1rem;
-}
+} */
 
 .flex-ul {
     display: flex;
@@ -74,9 +74,9 @@ h6 {
 
     /* main */
 
-    .position-absolute-main {
+    /* .position-absolute-main {
         position: absolute;
         top: 43rem;
         right: 0;
         left: 20.5rem;
-    }
+    } */

@@ -66,6 +66,16 @@ header section.flex-container > h6 {
     font-size: .92rem;
 }
 
+/* footer */
+
+footer > div.flex-container {
+    justify-content: space-between;
+}
+
+footer hr {
+    width: 11%;
+}
+
 /* impostazioni margini */
 
 header > section,

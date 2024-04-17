@@ -54,7 +54,6 @@ header section > button:first-of-type {
 }
 
 div > section:first-of-type {
-    width: 34%;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 5rem;

@@ -43,6 +43,7 @@ header {
 
 header > section {
     padding-top: 5rem;
+    margin: 0 12% 0 19%;
 }
 
 header section > button:first-of-type {
@@ -121,7 +122,6 @@ header div > section:first-of-type {
     top: 4.5rem;
 }
 
-header > section,
 footer > div,
 footer > hr {
     margin: 0 23% 0 19%;
@@ -139,7 +139,7 @@ img {
 }
 
 #jumbo {
-    width: 45rem;
+    width: 53rem;
     height: 28rem;
 }
 

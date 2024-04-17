@@ -64,6 +64,10 @@ header section.flex-container > button {
     margin-bottom: 2rem;
 }
 
+header section.flex-container > h6 {
+    font-size: .92rem;
+}
+
 /* misure immagini */
 
 img {

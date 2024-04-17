@@ -77,7 +77,18 @@ header button.buttom {
 footer {
     background-color: black;
     color: white;
-    padding: 3rem 0;
+    padding: 6.3rem 0 3rem 0;
+}
+
+footer li > h6 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.7rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 footer hr {
@@ -88,7 +99,7 @@ footer hr {
 
 footer > div:first-child {
     justify-content: space-between;
-    margin-bottom: 1rem;
+    padding: 0rem 0 6.2rem 0;
 }
 
 footer > div:last-child {

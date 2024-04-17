@@ -77,20 +77,23 @@ header button.buttom {
 footer {
     background-color: black;
     color: white;
-}
-
-footer > div:first-child {
-    justify-content: space-between;
-}
-
-footer > div:last-child {
-    color: #9b9b9b;
+    padding: 3rem 0;
 }
 
 footer hr {
     width: 7.5rem;
     border: 1px solid white;
     border-radius: 1px;
+}
+
+footer > div:first-child {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+footer > div:last-child {
+    color: #9b9b9b;
+    margin-top: 3.5rem;
 }
 
 /* impostazioni condivise */
@@ -101,16 +104,16 @@ nav section > ul {
     align-items: center;
 }
 
-header > section,
-footer > div,
-footer > hr {
-    margin: 0 23% 0 19%;
-}
-
 #jumbo,
 header div > section:first-of-type {
     position: relative;
     top: 4.5rem;
+}
+
+header > section,
+footer > div,
+footer > hr {
+    margin: 0 23% 0 19%;
 }
 
 /* misure immagini */

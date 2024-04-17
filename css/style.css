@@ -15,7 +15,7 @@ ul {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4.7rem;
 }
 
 h2 {
@@ -44,7 +44,7 @@ header {
 }
 
 header > section {
-    margin: 0 19%;
+    margin: 0 21.5% 0 19%;
     padding-top: 5rem;
 }
 
@@ -54,6 +54,7 @@ header section > button:first-of-type {
 }
 
 div > section:first-of-type {
+    width: 34%;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 5rem;
@@ -76,6 +77,7 @@ img {
 }
 
 #jumbo {
+    width: 48rem;
     position: relative;
     bottom: 0rem;
     top: 5rem;

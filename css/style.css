@@ -33,12 +33,6 @@ h6 {
 
 /* inpostazioni nav e header */
 
-nav > section,
-nav section > ul {
-    display: flex;
-    align-items: center;
-}
-
 nav ul > li {
     padding: 0 1.2rem;
 }
@@ -101,6 +95,12 @@ footer hr {
 
 /* impostazioni condivise */
 
+nav > section,
+nav section > ul {
+    display: flex;
+    align-items: center;
+}
+
 header > section,
 footer > div,
 footer > hr {
@@ -156,10 +156,4 @@ img {
 
 .i-marginb-fontsize {
     font-size: 3rem;
-}
-
-/* imp. temporanee */
-
-main {
-    display: none;
 }

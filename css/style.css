@@ -95,13 +95,32 @@ main > div:nth-of-type(3) div > img {
 
 div.flex-container > div.box-loghi:nth-of-type(2) {
     background-color: #f5f5f5;
-    padding: 2rem;
+    padding: 3rem 0 0 2rem;
+    flex-direction: column;
 }
 
 div.box-loghi > div {
     width: 50%;
+    height: 20rem;
     justify-content: center;
     align-items: center;
+}
+
+div.box-loghi:nth-of-type(2) > img {
+    width: 18rem;
+}
+
+div.box-loghi:nth-of-type(2) > hr {
+    width: 5.5rem;
+    border: 1px solid #d7d7da;
+}
+
+div.box-loghi:nth-of-type(2) > p{
+    width: 34rem;
+}
+
+div.box-loghi:nth-of-type(2) > h6 {
+    padding-bottom: 1rem;
 }
 
 /* footer */
@@ -158,6 +177,11 @@ header div > section:first-of-type {
     top: 4.5rem;
 }
 
+div.box-loghi:nth-of-type(2) > hr,
+div.box-loghi:nth-of-type(2) > img,
+div.box-loghi:nth-of-type(2) > p {
+    margin-bottom: 2.5rem;
+}
 /* misure immagini */
 
 img {

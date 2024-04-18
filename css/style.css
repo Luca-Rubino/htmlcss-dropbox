@@ -95,6 +95,21 @@ main section:first-child label {
     font-weight: 400;
 }
 
+/* Descrizione piani */
+
+main > div.main-container:first-of-type {
+    margin: 3% 19% 0 22.6%;
+}
+
+main > div.main-container:first-of-type > .flex-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+main > div.main-container:first-of-type > .flex-container > div{
+    border: 2px solid #e8e8ea;
+}
+
 /* immagini loghi partner */
 
 main > div:nth-of-type(4) {
@@ -150,6 +165,10 @@ div.box-loghi:nth-of-type(2) > h6 {
 section.main-container > section.flex-container {
     justify-content: space-between;
     margin: 2rem 2rem 2rem 0;
+}
+
+section.main-container:last-child {
+    margin-bottom: 10rem;
 }
 
 section.main-container:last-child > h2 {

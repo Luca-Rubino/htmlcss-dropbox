@@ -95,6 +95,8 @@ main section:first-child label {
     font-weight: 400;
 }
 
+/* immagini loghi partner */
+
 main > div:nth-of-type(4) {
     width: 100%;
 }
@@ -141,6 +143,21 @@ div.box-loghi:nth-of-type(2) > p{
 
 div.box-loghi:nth-of-type(2) > h6 {
     padding-bottom: 1rem;
+}
+
+/* domande frequenti */
+
+section.main-container > section.flex-container {
+    justify-content: space-between;
+    margin: 2rem 2rem 2rem 0;
+}
+
+section.main-container:last-child > h2 {
+    padding-bottom: 3rem;
+}
+
+section.main-container > section.flex-container h3 {
+    font-size: 1rem;
 }
 
 /* footer */
@@ -244,7 +261,7 @@ img {
 }
 
 .main-container {
-    margin: 1.5rem 19% 0 22.6%;
+    margin: 1.5rem 23.5% 0 24.5%;
 }
 
 .designit {

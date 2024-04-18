@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.45rem;
 }
 
 h6 {
@@ -31,7 +31,7 @@ h6 {
     font-weight: 400;
 }
 
-/* inpostazioni nav e header */
+/* impostazioni nav e header */
 
 nav ul > li {
     padding: 0 1.2rem;
@@ -74,6 +74,28 @@ header button.buttom {
 }
 
 /* main */
+
+main section:first-child {
+    margin: 9% 19% 0rem 22.6%;
+}
+
+main section:first-child h2 {
+    margin-bottom: 6rem;
+}
+
+main section:first-child fieldset {
+    border: 0;
+}
+
+/* non sono riuscito ad impostare lo stile dell'imput[tipe="radio"] */
+
+main section:first-child label {
+    margin-right: 4rem;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
 
 main > div:nth-of-type(3) {
     width: 100%;

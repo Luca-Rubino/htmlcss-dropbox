@@ -76,11 +76,11 @@ header button.buttom {
 /* main */
 
 main section:first-child {
-    margin: 9% 19% 0rem 22.6%;
+    margin: 9% 19% 0 22.6%;
 }
 
 main section:first-child h2 {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 main section:first-child fieldset {
@@ -95,13 +95,11 @@ main section:first-child label {
     font-weight: 400;
 }
 
-
-
-main > div:nth-of-type(3) {
+main > div:nth-of-type(4) {
     width: 100%;
 }
 
-main > div:nth-of-type(3) > div {
+main > div:nth-of-type(4) > div {
     width: 33.3%;
     flex-wrap: wrap;
 }
@@ -110,7 +108,7 @@ div.flex-container > div.box-loghi:nth-of-type(2) img {
     filter: invert(0%);
 }
 
-main > div:nth-of-type(3) div > img {
+main > div:nth-of-type(4) div > img {
     filter: invert(100%);
     width: 10rem;
 }
@@ -243,6 +241,10 @@ img {
     border: 0;
     padding: .8rem;
     margin-bottom: 2rem;
+}
+
+.main-container {
+    margin: 1.5rem 19% 0 22.6%;
 }
 
 .designit {

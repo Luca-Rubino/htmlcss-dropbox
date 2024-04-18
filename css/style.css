@@ -73,6 +73,22 @@ header button.buttom {
     margin-bottom: 0;
 }
 
+/* main */
+
+main > div:nth-of-type(3) {
+    width: 100%;
+}
+
+main > div:nth-of-type(3) > div {
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+
+main > div:nth-of-type(3) > div > div >img {
+    filter: invert(100%);
+    width: 16rem;
+}
+
 /* footer */
 
 footer {
@@ -92,10 +108,15 @@ footer li {
     font-weight: 500;
 }
 
+footer > div {
+    margin: 0 19%;
+}
+
 footer hr {
     width: 7.5rem;
-    border: 1px solid white;
+    border: 1px solid #a3a3a3;
     border-radius: 1px;
+    margin: 0 23% 0 19%;
 }
 
 footer > div:first-child {
@@ -120,11 +141,6 @@ nav section > ul {
 header div > section:first-of-type {
     position: relative;
     top: 4.5rem;
-}
-
-footer > div,
-footer > hr {
-    margin: 0 23% 0 19%;
 }
 
 /* misure immagini */
@@ -168,6 +184,11 @@ img {
     margin-bottom: 2rem;
 }
 
-.i-marginb-fontsize {
+.designit {
+    border: 1rem solid #d1e9cd;
+    background-color: #a2d39b;
+}
+
+.i-fontsize {
     font-size: 3rem;
 }

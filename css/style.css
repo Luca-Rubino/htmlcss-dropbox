@@ -84,11 +84,19 @@ main > div:nth-of-type(3) > div {
     flex-wrap: wrap;
 }
 
-main > div:nth-of-type(3) > div > div >img {
+main > div:nth-of-type(3) div > img {
     filter: invert(100%);
     width: 16rem;
 }
 
+div.box-loghi > div {
+    width: 50%;
+    justify-content: center;
+}
+
+main div.designit > img {
+    padding: 1rem;
+}
 /* footer */
 
 footer {

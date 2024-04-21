@@ -75,15 +75,15 @@ header button.buttom {
 
 /* main */
 
-main section:first-child {
+main > section:first-child {
     margin: 9% 19% 0 22.6%;
 }
 
-main section:first-child h2 {
+main > section:first-child h2 {
     margin-bottom: 4rem;
 }
 
-main section:first-child fieldset {
+main > section:first-child fieldset {
     border: 0;
 }
 
@@ -160,6 +160,35 @@ div.box-loghi:nth-of-type(2) > h6 {
     padding-bottom: 1rem;
 }
 
+/* prova gratuita */
+
+main div:nth-of-type(5) {
+    padding: 6.5rem 0;
+    background-color: #b4d0e7;
+}
+
+main div:nth-of-type(5) > section.main-container.flex-container {
+    width: 52%;
+    justify-content: space-between;
+}
+
+main div:nth-of-type(5) > section.main-container.flex-container > h2 {
+    color: #61082b;
+    padding-bottom: 0;
+    width: 30rem;
+}
+
+main div:nth-of-type(5) > section.main-container.flex-container > button {
+    background-color: white;
+    color: black;
+    padding: 0 4rem;
+    margin: 0;
+    font-size: 1rem;
+    margin-bottom: 3.5rem;
+    margin-top: .7rem;
+    font-weight: 400;
+}
+
 /* domande frequenti */
 
 section.main-container > section.flex-container {
@@ -168,7 +197,7 @@ section.main-container > section.flex-container {
 }
 
 section.main-container:last-child {
-    margin-bottom: 10rem;
+    margin-bottom: 1.9rem;
 }
 
 section.main-container:last-child > h2 {

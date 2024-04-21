@@ -110,6 +110,35 @@ main > div.main-container:first-of-type > .flex-container > div{
     border: 2px solid #e8e8ea;
 }
 
+/* trova un partner */
+
+main > div:nth-of-type(3) section {
+    width: 40%;
+    padding: 3rem;
+}
+
+main > div:nth-of-type(3) img {
+    width: 63%;
+}
+
+main > div:nth-of-type(3) h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+main > div:nth-of-type(3) button{
+    background-color: #0061ff00;
+    color: black;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: .5rem;
+}
+
+main > div:nth-of-type(3) h2,
+main > div:nth-of-type(3) p {
+    margin-bottom: 1rem;
+}
+
 /* operazioni dropbox business */
 
 main > section:nth-of-type(2) > div.flex-container {
@@ -124,6 +153,7 @@ main > section:nth-of-type(2) section {
 
 main > section:nth-of-type(2) h2 {
     margin-bottom: 3rem;
+    font-size: 2.8rem;
 }
 
 main > section:nth-of-type(2) img {
@@ -138,10 +168,6 @@ main > section:nth-of-type(2) h3 {
 }
 
 /* h2 e tag a */
-
-main > section:nth-of-type(3) {
-    margin: 10rem 22.6%;
-}
 
 main > section:nth-of-type(3) h2 {
     width: 56%;
@@ -311,6 +337,12 @@ div.box-loghi:nth-of-type(2) > img,
 div.box-loghi:nth-of-type(2) > p {
     margin-bottom: 2.5rem;
 }
+
+main > div:nth-of-type(3),
+main > section:nth-of-type(3) {
+    margin: 10rem 22.6%;
+}
+
 /* misure immagini */
 
 img {

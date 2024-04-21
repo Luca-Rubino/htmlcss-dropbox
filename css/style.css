@@ -197,7 +197,7 @@ section.main-container > section.flex-container {
 }
 
 section.main-container:last-child {
-    margin-bottom: 1.9rem;
+    margin: 14rem 24.5%;
 }
 
 section.main-container:last-child > h2 {

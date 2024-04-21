@@ -95,10 +95,10 @@ main section:first-child label {
     font-weight: 400;
 }
 
-/* Descrizione piani */
+/* descrizione piani */
 
 main > div.main-container:first-of-type {
-    margin: 3% 19% 0 22.6%;
+    margin: 3rem 22.6%;
 }
 
 main > div.main-container:first-of-type > .flex-container {
@@ -108,6 +108,49 @@ main > div.main-container:first-of-type > .flex-container {
 
 main > div.main-container:first-of-type > .flex-container > div{
     border: 2px solid #e8e8ea;
+}
+
+/* operazioni dropbox business */
+
+main > section:nth-of-type(2) > div.flex-container {
+    flex-wrap: wrap;
+}
+
+main > section:nth-of-type(2) section {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+main > section:nth-of-type(2) h2 {
+    margin-bottom: 3rem;
+}
+
+main > section:nth-of-type(2) img {
+    align-self: center;
+    width: 69%;
+}
+
+main > section:nth-of-type(2) h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: .7rem;
+}
+
+/* h2 e tag a */
+
+main > section:nth-of-type(3) {
+    margin: 10rem 22.6%;
+}
+
+main > section:nth-of-type(3) h2 {
+    width: 56%;
+    margin-bottom: 3rem;
+}
+
+main > section:nth-of-type(3) a {
+    font-size: .7rem;
+    color: #6d6df2;
 }
 
 /* immagini loghi partner */
@@ -170,6 +213,7 @@ main div:nth-of-type(5) {
 main div:nth-of-type(5) > section.main-container.flex-container {
     width: 52%;
     justify-content: space-between;
+    margin: 1.7rem 24.5%;
 }
 
 main div:nth-of-type(5) > section.main-container.flex-container > h2 {
@@ -309,7 +353,7 @@ img {
 }
 
 .main-container {
-    margin: 1.5rem 23.5% 0 24.5%;
+    margin: 0 22.6%;
 }
 
 .designit {

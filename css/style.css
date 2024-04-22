@@ -110,6 +110,50 @@ main > div.main-container:first-of-type > .flex-container > div{
     border: 2px solid #e8e8ea;
 }
 
+/* team enterprise */
+
+main > div:nth-of-type(2) {
+    border: 2px solid #e8e8ea;
+}
+
+main > div:nth-of-type(2) i {
+    margin-right: 0.3rem;
+}
+
+main > div:nth-of-type(2) h6 {
+    font-weight: 100;
+}
+
+main > div:nth-of-type(2) section:first-of-type {
+    border-bottom: 2px solid #e8e8ea;
+    justify-content: center;
+    padding: .5rem;
+    align-items: center;
+}
+
+main > div:nth-of-type(2) section:last-of-type {
+    padding: 2rem;
+}
+
+main > div:nth-of-type(2) section:last-of-type > div:first-child {
+    width: calc(100% / 1.3);
+}
+
+main > div:nth-of-type(2) section:last-of-type > div:first-child h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+main > div:nth-of-type(2) section:last-of-type > div:first-child h3 {
+    font-size: .9rem;
+    padding-bottom: 3rem;
+}
+
+main > div:nth-of-type(2) section:last-of-type > div:last-child button {
+    padding: .7rem 2rem;
+    width: 15rem;
+}
+
 /* trova un partner */
 
 main > div:nth-of-type(3) section {
